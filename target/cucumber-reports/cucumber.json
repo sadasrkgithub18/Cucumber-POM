@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12495467300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login test with valid credentials",
+        "description": "",
+        "id": "login-validation-feature;login-test-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1360584100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 195985200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "when user is on login page",
+            "match": {
+              "location": "Steps.when_user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245022600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters valid credentials",
+            "match": {
+              "location": "Steps.user_enters_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3109907500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "when he clicks on login",
+            "match": {
+              "location": "Steps.when_he_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6578500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "login should be successful",
+            "match": {
+              "location": "Steps.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Login-Valid"
+          }
+        ]
+      }
+    ],
+    "name": "Login validation feature",
+    "description": "As a registered user\nIn order to validate login\nI want to login check login validation",
+    "id": "login-validation-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
